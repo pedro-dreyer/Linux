@@ -17,11 +17,10 @@
 ## TMUX
 - To force a 256 color terminal put `set -g default-terminal 'tmux-256color'` in `.tmux.conf`
 
-<<<<<<< HEAD
+## FZF
 
 ## SHELL/TERMINAL
 
-## FZF
 - **256 colors:** We must put the following lines in `.tmux.conf` 
 
 ```shell

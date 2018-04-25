@@ -15,11 +15,6 @@
 - **Copy/Paste:** We can copy with <kbd>Ctrl</kbd>+<kbd>Insert</kbd> and paste with <kbd>Shift</kbd>+<kbd>Insert</kbd> in most linux applications.
 
 ## TMUX
-- To force a 256 color terminal put `set -g default-terminal 'tmux-256color'` in `.tmux.conf`
-
-## FZF
-
-## SHELL/TERMINAL
 
 - **256 colors:** We must put the following lines in `.tmux.conf` 
 
@@ -39,4 +34,6 @@ Machine without `tmux-256color.ti`
 $ tic tmux-256color.ti
 ```
 this will create some files in the `.terminfo` folder that will correct render the terminal colors
+## FZF
+
 ## SHELL/TERMINAL

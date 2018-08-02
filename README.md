@@ -36,6 +36,11 @@
 - **Create Users:** Use the command `sudo adduser new_username`
 
   https://askubuntu.com/questions/410244/a-command-to-list-all-users-and-how-to-add-delete-modify-user
+  
+- **Limit memory usage per user:** edit the file /etc/security/limits.conf and add `'username' as hard 'memlimit'`
+
+ http://shortrecipes.blogspot.com/2009/04/limitsconf-virtual-memory-limit.html
+
 
 ## SSH
 

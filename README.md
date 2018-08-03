@@ -37,15 +37,19 @@
 
   https://askubuntu.com/questions/410244/a-command-to-list-all-users-and-how-to-add-delete-modify-user
   
-- **Limit memory usage per user:** edit the file /etc/security/limits.conf and add `'username' as hard 'memlimit'`
-
- http://shortrecipes.blogspot.com/2009/04/limitsconf-virtual-memory-limit.html
+- **Limit memory usage per user:** edit the file /etc/security/limits.conf and add `'username' hard as 'memlimit'`
+  
+  http://shortrecipes.blogspot.com/2009/04/limitsconf-virtual-memory-limit.html
 
 
 ## SSH
 
 - **Enable X11 port fowarding:** Connect using `ssh -X name@server` to make the terminal have X11 port fowarding. This makes among other things vim to have acess to the clipboard and that programs opened in the host machine to appear in the local machine.
 
+- **Connect to a Jupyter nootbok:** In the server type: `jupyter notebook --port=9000 --no-browser &` and in the local machine enter: `ssh -N -f -L 8888:localhost:9000 user@server`
+
+  https://www.blopig.com/blog/2018/03/running-jupyter-notebook-on-a-remote-server-via-ssh/
+  
 ## VIM
 
 - **Clipboard acess:** To have acess to the clipboard VIM needs to have the xterm\_cipboard option enabled. One package which has this enabled is vim-gnome. youcan install it using the command `sudo apt-get install vim-gnome`.

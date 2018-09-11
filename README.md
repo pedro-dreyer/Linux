@@ -46,7 +46,7 @@
 
 - **Enable X11 port fowarding:** Connect using `ssh -X name@server` to make the terminal have X11 port fowarding. This makes among other things vim to have acess to the clipboard and that programs opened in the host machine to appear in the local machine.
 
-- **Connect to a Jupyter nootbok:** In the server type: `jupyter notebook --port=9000 --no-browser &` and in the local machine enter: `ssh -N -f -L 8888:localhost:9000 user@server`
+- **Connect to a Jupyter nootbok:** In the server type: `jupyter notebook --port=9000 --no-browser &` and in the local machine enter: `ssh -N -L 8888:localhost:8888 pedro@172.20.2.19`
 
   https://www.blopig.com/blog/2018/03/running-jupyter-notebook-on-a-remote-server-via-ssh/
   

@@ -40,6 +40,8 @@
 - **Limit memory usage per user:** edit the file /etc/security/limits.conf and add `'username' hard as 'memlimit'`
   
   http://shortrecipes.blogspot.com/2009/04/limitsconf-virtual-memory-limit.html
+  
+ - **Find which user is running a particular process:** Use the command `ps -u -p 1234`
 
 
 ## SSH
@@ -49,6 +51,10 @@
 - **Connect to a Jupyter nootbok:** In the server type: `jupyter notebook --port=8888 --no-browser &` and in the local machine enter: `ssh -N -L 8888:localhost:8888 pedro@172.20.2.19`
 
   https://www.blopig.com/blog/2018/03/running-jupyter-notebook-on-a-remote-server-via-ssh/
+  
+ - **Other sources:** 
+     - https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts#ProxyCommand_with_Netcat
+     - test
   
 ## VIM
 

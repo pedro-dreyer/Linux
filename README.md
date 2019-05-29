@@ -54,7 +54,8 @@
   
  - **Other sources:** 
      - https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts#ProxyCommand_with_Netcat
-     - test
+     - https://www.booleanworld.com/guide-ssh-port-forwarding-tunnelling/
+     - https://dev.to/samuyi/the-how-to-of-ssh-port-forwarding-1f4e
   
 ## VIM
 

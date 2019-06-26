@@ -86,6 +86,14 @@ set -as terminal-overrides ',xterm*:Tc:sitm=\E[3m'
   ```
   this will create some files in the `.terminfo` folder that will correct render the terminal colors
 
+## BASH
+http://tldp.org/LDP/abs/html/index.html
+https://devhints.io/bash
+http://www.tablespace.net/quicksheet/shell-quicksheet.pdf
+https://wiki.bash-hackers.org/start
+https://goalkicker.com/BashBook/
+
+
 ## FZF
 
 ## SHELL/TERMINAL
